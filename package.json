@@ -8,6 +8,10 @@
     "url",
     "parser"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retueZe/node-http-url"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "devDependencies": {
