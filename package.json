@@ -1,0 +1,19 @@
+{
+  "name": "http-url",
+  "version": "0.0.0",
+  "description": "Flexible url parser.",
+  "keywords": [
+    "http",
+    "https",
+    "url",
+    "parser"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "async-option": "^1.2.0"
+  }
+}
