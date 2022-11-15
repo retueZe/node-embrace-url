@@ -97,6 +97,7 @@ export class Url {
                         fragment: Result.success(groups.fragment ?? '')
                     })))
                 .map(components => new Url(components)))
+                .onSuccess(url => url._unescaped = input)
     }
     private static _parseQuery(input: string, parser: UrlQueryParser): IOption<UrlQuery> {
         const parseResult = parser(input)

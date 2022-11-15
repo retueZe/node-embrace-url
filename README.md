@@ -11,7 +11,7 @@ Url.parse('https://usr:psw@example.net:1234/path/to/file?a=b&c=d#fragment')
 // Output:
 // Url {
 //   _escaped: null,
-//   _unescaped: null,
+//   _unescaped: 'https://usr:psw@example.net:1234/path/to/file?a=b&c=d#fragment',
 //   protocol: 'https',
 //   canHaveAuthority: true,
 //   userInfo: UrlUserInfo {
