@@ -1,6 +1,7 @@
 {
-  "name": "http-url",
-  "version": "0.0.0",
+  "private": true,
+  "name": "embrace-url",
+  "version": "1.0.0",
   "description": "Flexible url parser.",
   "keywords": [
     "http",
@@ -10,14 +11,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/retueZe/node-http-url"
+    "url": "https://github.com/retueZe/node-embrace-url"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
-    "typescript": "^4.8.3"
+    "typescript": "^4.8.4"
   },
   "dependencies": {
-    "async-option": "^1.2.0"
+    "@types/punycode": "^2.1.0",
+    "async-option": "^1.8.3",
+    "punycode": "^2.1.1"
   }
 }

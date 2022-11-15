@@ -1,3 +1,8 @@
 {
-    "extends": "./tsconfig.prod.json"
+    "extends": "./tsconfig.prod.json",
+    "compilerOptions": {
+        "declaration": false,
+        "declarationDir": null,
+        "lib": ["es2022", "dom"]
+    }
 }
